@@ -33,7 +33,17 @@ struct OrderListView: View {
                         
                         HStack {
                             Text(order.coffeeName)
-                                .padding([.leading, .bottom],10)
+                                .padding(EdgeInsets(top: 10, leading: 10, bottom: 10, trailing: 10))
+                                .background(Color.gray)
+                                .foregroundColor(Color.white)
+                                .cornerRadius(10)
+                            
+                            
+                            Text(order.size)
+                                .padding(EdgeInsets(top: 10, leading: 10, bottom: 10, trailing: 10))
+                                .background(Color.blue)
+                                .foregroundColor(Color.white)
+                                .cornerRadius(10)
                         }
                     }
                 }
@@ -45,6 +55,6 @@ struct OrderListView: View {
 
 struct OrderListView_Previews: PreviewProvider {
     static var previews: some View {
-        OrderListView(orders: [OrderViewModel(order: Order(name: "Name", size: "Regular", coffeeName: "Cappuccino", total: 0.0))])
+        OrderListView(orders: [OrderViewModel(order: Order(name: "Cappuccino", size: "Regular", coffeeName: "Medium", total: 0.0))])
     }
 }

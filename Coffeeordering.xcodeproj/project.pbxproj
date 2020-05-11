@@ -19,6 +19,10 @@
 		835496912463FA0C00DCE237 /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835496902463FA0C00DCE237 /* WebServices.swift */; };
 		835496962463FAC100DCE237 /* OrderListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835496952463FAC100DCE237 /* OrderListViewModel.swift */; };
 		83549698246402AA00DCE237 /* OrderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83549697246402AA00DCE237 /* OrderListView.swift */; };
+		8368D24A246993E8004D5EE7 /* CreateOrderResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8368D249246993E8004D5EE7 /* CreateOrderResponse.swift */; };
+		8368D24C246995EC004D5EE7 /* AddCoffeeOrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8368D24B246995EC004D5EE7 /* AddCoffeeOrderViewModel.swift */; };
+		8368D24E2469B61E004D5EE7 /* CoffeeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8368D24D2469B61E004D5EE7 /* CoffeeViewModel.swift */; };
+		8368D2502469BA5E004D5EE7 /* AddCoffeeOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8368D24F2469BA5E004D5EE7 /* AddCoffeeOrderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +40,10 @@
 		835496902463FA0C00DCE237 /* WebServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
 		835496952463FAC100DCE237 /* OrderListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListViewModel.swift; sourceTree = "<group>"; };
 		83549697246402AA00DCE237 /* OrderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListView.swift; sourceTree = "<group>"; };
+		8368D249246993E8004D5EE7 /* CreateOrderResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOrderResponse.swift; sourceTree = "<group>"; };
+		8368D24B246995EC004D5EE7 /* AddCoffeeOrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeeOrderViewModel.swift; sourceTree = "<group>"; };
+		8368D24D2469B61E004D5EE7 /* CoffeeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeViewModel.swift; sourceTree = "<group>"; };
+		8368D24F2469BA5E004D5EE7 /* AddCoffeeOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeeOrderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +103,7 @@
 			children = (
 				8354968C2463F9E400DCE237 /* Coffee.swift */,
 				8354968B2463F9E400DCE237 /* Order.swift */,
+				8368D249246993E8004D5EE7 /* CreateOrderResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -111,6 +120,8 @@
 			isa = PBXGroup;
 			children = (
 				835496952463FAC100DCE237 /* OrderListViewModel.swift */,
+				8368D24B246995EC004D5EE7 /* AddCoffeeOrderViewModel.swift */,
+				8368D24D2469B61E004D5EE7 /* CoffeeViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -120,6 +131,7 @@
 			children = (
 				835496722463F37300DCE237 /* ContentView.swift */,
 				83549697246402AA00DCE237 /* OrderListView.swift */,
+				8368D24F2469BA5E004D5EE7 /* AddCoffeeOrderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -205,9 +217,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8354966C2463F37300DCE237 /* AppDelegate.swift in Sources */,
+				8368D24A246993E8004D5EE7 /* CreateOrderResponse.swift in Sources */,
 				8354966E2463F37300DCE237 /* SceneDelegate.swift in Sources */,
+				8368D24C246995EC004D5EE7 /* AddCoffeeOrderViewModel.swift in Sources */,
+				8368D24E2469B61E004D5EE7 /* CoffeeViewModel.swift in Sources */,
 				83549698246402AA00DCE237 /* OrderListView.swift in Sources */,
 				835496912463FA0C00DCE237 /* WebServices.swift in Sources */,
+				8368D2502469BA5E004D5EE7 /* AddCoffeeOrderView.swift in Sources */,
 				8354968D2463F9E400DCE237 /* Order.swift in Sources */,
 				835496732463F37300DCE237 /* ContentView.swift in Sources */,
 				835496712463F37300DCE237 /* Coffeeordering.xcdatamodeld in Sources */,
