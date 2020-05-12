@@ -26,8 +26,28 @@ struct AddCoffeeOrderView: View {
                             CoffeeCellView(coffee: coffee,selection: self.$addCoffeeVM.coffeeName)
                         }
                     }
+                    
+                    Section(header: Text("Select Coffee").font(.body),footer: Text("Total")){
+                        Picker("",selection: self.$addCoffeeVM.size){
+                            Text("Small").tag("Small")
+                            Text("Medium").tag("Medium")
+                            Text("Large").tag("Large")
+                        }.pickerStyle(SegmentedPickerStyle())
+                    }
+                }
+                
+                HStack {
+                    Button("Order") {
+                        
+                    }
+                    .padding(EdgeInsets(top: 12, leading: 100, bottom: 12, trailing: 100))
+                    .foregroundColor(Color.white)
+                    .background(Color(red: 46/255, green: 204/255, blue: 113/255))
+                    .cornerRadius(10)
                 }
             }
+                
+            .navigationBarTitle("Add Order")
         }
     }
 }
