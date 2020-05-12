@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8323DC7B246B00FC0064A74D /* OrderTotalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8323DC7A246B00FC0064A74D /* OrderTotalView.swift */; };
 		8354966C2463F37300DCE237 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8354966B2463F37300DCE237 /* AppDelegate.swift */; };
 		8354966E2463F37300DCE237 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8354966D2463F37300DCE237 /* SceneDelegate.swift */; };
 		835496712463F37300DCE237 /* Coffeeordering.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8354966F2463F37300DCE237 /* Coffeeordering.xcdatamodeld */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8323DC7A246B00FC0064A74D /* OrderTotalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTotalView.swift; sourceTree = "<group>"; };
 		835496682463F37300DCE237 /* Coffeeordering.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coffeeordering.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8354966B2463F37300DCE237 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8354966D2463F37300DCE237 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 				835496722463F37300DCE237 /* ContentView.swift */,
 				83549697246402AA00DCE237 /* OrderListView.swift */,
 				8368D24F2469BA5E004D5EE7 /* AddCoffeeOrderView.swift */,
+				8323DC7A246B00FC0064A74D /* OrderTotalView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 				835496732463F37300DCE237 /* ContentView.swift in Sources */,
 				835496712463F37300DCE237 /* Coffeeordering.xcdatamodeld in Sources */,
 				8354968E2463F9E400DCE237 /* Coffee.swift in Sources */,
+				8323DC7B246B00FC0064A74D /* OrderTotalView.swift in Sources */,
 				835496962463FAC100DCE237 /* OrderListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
