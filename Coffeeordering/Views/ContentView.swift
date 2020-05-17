@@ -17,14 +17,15 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             OrderListView(orders: self.orderListVM.orders)
-            .navigationBarTitle("Coffee Orders")
-                .navigationBarItems(leading: Button(action: reloadOrders){
-                    Image(systemName: "arrow.clockwise").foregroundColor(Color.white)
+                
+                .navigationBarTitle("Coffee Orders")
+                .navigationBarItems(leading: Button(action: reloadOrders) {
+                    Image(systemName: "arrow.clockwise")
+                        .foregroundColor(Color.white)
                     }, trailing: Button(action: showAddCoffeeOrderView){
                         Image(systemName: "plus")
-                })
-            
-                .sheet(isPresented: self.$showModal){
+                            .foregroundColor(Color.white)
+                }).sheet(isPresented: self.$showModal){
                     AddCoffeeOrderView(isPresented: self.$showModal)
             }
         }

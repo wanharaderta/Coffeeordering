@@ -9,7 +9,12 @@
 import Foundation
 
 class OrderListViewModel : ObservableObject {
+    
     @Published var orders = [OrderViewModel]()
+    
+    init() {
+        fetchOrders()
+    }
     
     func fetchOrders() {
         WebServices().getAllOrders{ orders in
